@@ -60,6 +60,7 @@ main p {
 
 .minhas-habilidades {
     background-color: #7b2cbf;
+    color: white;
     width: 350px;
     height: 200px;
     margin-top: 25px;
@@ -87,6 +88,7 @@ main p {
     margin-bottom: 25px;
     padding: 25px;
     border-radius: 5px;
+    color: white;
 }
 
 .outras-habilidades h2 {
