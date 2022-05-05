@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#c77dff, #c77dff);
+}
+
+header {
+    top: 0;
+    position: fixed;
+    max-height: 100px;
+    width: 100%;
+    background-color: #3c096c;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+header a:hover {
+    color: #c77dff;
+}
+
+main {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+main img {
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+main p {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.minhas-habilidades {
+    background-color: #7b2cbf;
+    width: 350px;
+    height: 200px;
+    margin-top: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.minhas-habilidades h2 {
+    margin-bottom: 25px;
+}
+
+.minhas-habilidades ul li {
+    margin-left: 25px;
+}
+
+.outras-habilidades {
+    background-color: #7b2cbf;
+    width: 350px;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.outras-habilidades h2 {
+    margin-bottom: 25px;
+}
+
+.outras-habilidades ul li {
+    margin-left: 25px;
+}
+
+.link-interesses {
+    margin: 25px;   
+}
+
+.link-interesses h3 {
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.link-interesses a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
