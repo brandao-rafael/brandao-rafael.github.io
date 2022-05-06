@@ -40,12 +40,11 @@ main {
     width: 100%;
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .main-img {
-    margin-left: 200px;
-    margin-right: 20px;
     border-radius: 5px;
 }
 
@@ -53,6 +52,26 @@ main p {
     margin-top: 15px;
     padding-bottom: 15px;
     font-family: 'Dosis', sans-serif;
+}
+
+.estudante-p {
+    margin-top: 200px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+
+.img {
+    padding: 15px;
+    background-color: #3c096c;
+    border-radius: 5px;
+    margin-right: 25px;
 }
 
 strong {
@@ -74,7 +93,7 @@ em {
     color: white;
     width: 350px;
     height: 200px;
-    margin-top: 25px;
+    margin-top: 43px;
     margin-right: 25px;
     padding: 25px;
     border-radius: 5px;
@@ -93,8 +112,8 @@ em {
 
 .outras-habilidades {
     background-color: #7b2cbf;
-    width: 350px;
-    height: 200px;
+    width: 450px;
+    height: 230px;
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 25px;
