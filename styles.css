@@ -162,3 +162,46 @@ em {
     color: #c77dff;
     transition: 1s;
 }
+
+@media (max-width: 720px) {
+
+    header {
+        text-align: center;
+    }
+
+    header a {
+        margin: 5px;
+    }
+
+    .img {
+        margin-left: 4%;
+    }
+
+    .estudante-p {
+        margin-top: 25px;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .minhas-habilidades {
+        max-width: 80%;
+        margin-left: 4%;
+    }
+
+    .outras-habilidades{
+        max-width: 80%;
+        margin-left: 4%;
+        height: auto;
+    }
+
+    .link-interesses {
+        display: flex;
+        flex-direction: column;
+    }
+}
