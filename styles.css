@@ -132,6 +132,10 @@ em {
     font-family: 'Dosis', sans-serif;
 }
 
+.impar {
+    color: #d49ffd;
+}
+
 .link-interesses { 
     background-color: #3c096c;
     width: 100%; 
