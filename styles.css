@@ -22,7 +22,7 @@ h1 {
     color: #f1f1f1;
 }
 
-.dark-mode-primary{
+.dark-mode-primary {
     background-color: #18032c;
 }
 
@@ -148,13 +148,15 @@ em {
     background-color: #18032c;
 }
 
-.minhas-habilidades h2, .outras-habilidades h2 {
+.minhas-habilidades h2,
+.outras-habilidades h2 {
     margin-bottom: 25px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
 }
 
-.minhas-habilidades ul li, .outras-habilidades ul li {
+.minhas-habilidades ul li,
+.outras-habilidades ul li {
     margin-left: 25px;
     font-family: 'Dosis', sans-serif;
 }
@@ -179,9 +181,9 @@ em {
     font-size: 18px;
 }
 
-.link-interesses { 
+.link-interesses {
     background-color: #3c096c;
-    width: 100%; 
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 25px;
 }
@@ -220,6 +222,12 @@ em {
         margin: 5px;
     }
 
+    .dark-mode-button img {
+        width: 30px;
+        top: 15px;
+        margin-right: 15px;
+    }
+
     .img {
         margin-left: 4%;
     }
@@ -228,11 +236,13 @@ em {
         margin-top: 25px;
     }
 
-    .main-container, .container {
+    .main-container,
+    .container {
         flex-direction: column;
     }
 
-    .outras-habilidades, .minhas-habilidades{
+    .outras-habilidades,
+    .minhas-habilidades {
         max-width: 80%;
         margin-left: 4%;
         height: auto;
