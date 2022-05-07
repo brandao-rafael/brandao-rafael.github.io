@@ -10,6 +10,8 @@ body {
 h1 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
+    color: rgba(37, 36, 36);
+    margin-bottom: 50px;
 }
 
 header {
@@ -99,13 +101,13 @@ em {
     border-radius: 5px;
 }
 
-.minhas-habilidades h2 {
+.minhas-habilidades h2, .outras-habilidades h2 {
     margin-bottom: 25px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
 }
 
-.minhas-habilidades ul li {
+.minhas-habilidades ul li, .outras-habilidades ul li {
     margin-left: 25px;
     font-family: 'Dosis', sans-serif;
 }
@@ -119,17 +121,6 @@ em {
     padding: 25px;
     border-radius: 5px;
     color: white;
-}
-
-.outras-habilidades h2 {
-    margin-bottom: 25px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-}
-
-.outras-habilidades ul li {
-    margin-left: 25px;
-    font-family: 'Dosis', sans-serif;
 }
 
 .impar {
@@ -182,20 +173,11 @@ em {
         margin-top: 25px;
     }
 
-    .main-container {
+    .main-container, .container {
         flex-direction: column;
     }
 
-    .container {
-        flex-direction: column;
-    }
-
-    .minhas-habilidades {
-        max-width: 80%;
-        margin-left: 4%;
-    }
-
-    .outras-habilidades{
+    .outras-habilidades, .minhas-habilidades{
         max-width: 80%;
         margin-left: 4%;
         height: auto;
@@ -204,5 +186,9 @@ em {
     .link-interesses {
         display: flex;
         flex-direction: column;
+    }
+
+    .link-interesses a {
+        line-height: 35px;
     }
 }
