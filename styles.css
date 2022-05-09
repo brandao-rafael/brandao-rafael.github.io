@@ -176,7 +176,7 @@ em {
     background-color: #18032c;
 }
 
-.impar {
+.outras-habilidades ul li:nth-last-of-type(odd), .minhas-habilidades ul li:nth-last-of-type(odd)  {
     color: #d49ffd;
     font-size: 18px;
 }
