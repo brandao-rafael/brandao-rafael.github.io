@@ -212,6 +212,20 @@ em {
     transition: 1s;
 }
 
+footer {
+    background-color: black;
+    color: #dfb6ff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 15px;
+}
+
+footer p {
+    line-height: 25px;
+}
+
 @media (max-width: 720px) {
 
     header {
